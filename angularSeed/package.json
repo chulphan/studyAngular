@@ -1,0 +1,16 @@
+{
+  "name": "angularSeed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts" : {
+    "start" : "live-server"
+  },
+
+  "dependencies" : {
+    "@angular/common" : "4.1.0",
+    "@angular/compiler" : "4.1.0"
+  }
+
+}
