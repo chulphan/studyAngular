@@ -20,6 +20,6 @@ System.config({
     '@angular/platform-browser' : { main : 'bundles/platform-browser.umd.min.js' },
     '@angular/platform-browser-dynamic' : { main : 'bundles/platform-browser-dynamic.umd.min.js' },
     '@angular/router' : { main : 'bundles/router.umd.min.js'},
-    'app' : { main : 'main-with-guard', defaultExtension : 'ts' }
+    'app' : { main : 'main-luxury-lazy', defaultExtension : 'ts' }
   }
 });
