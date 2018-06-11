@@ -1,16 +1,30 @@
 {
-  "name": "angularSeed",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "angular-seed",
+  "descripton" : "An initial yarn-managed project for ch2",
+  "private" : true,
 
   "scripts" : {
     "start" : "live-server"
   },
 
   "dependencies" : {
-    "@angular/common" : "4.1.0",
-    "@angular/compiler" : "4.1.0"
+    "@angular/common" : "^4.1.0",
+    "@angular/compiler" : "^4.1.0",
+    "@angular/core" : "^4.1.0",
+    "@angular/forms" : "^4.1.0",
+    "@angular/http" : "^4.1.0",
+    "@angular/platform-browser" : "^4.1.0",
+    "@angular/platform-browser-dynamic" : "^4.1.0",
+    "@angular/router" : "^4.1.0",
+    "core-js" : "^2.4.1",
+    "rxjs" : "5.3.0",
+    "systemjs" : "0.19.47",
+    "zone.js" : "^0.8.5"
+  },
+
+  "devDependencies" : {
+    "live-server" : "^1.2.0",
+    "typescript" : "2.3.3"
   }
 
 }
