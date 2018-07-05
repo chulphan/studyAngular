@@ -1,0 +1,28 @@
+<form [formGroup]="formModel">
+	<div class="form-group">
+		<label for="title">Product title :</label>
+		<input type="text"
+					 id="title"
+		       placeholder="Title"
+					 class="form-control"
+					 formControlName="title"
+					 >
+	</div>
+	<div class="form-group">
+		<label for="price">Product price :</label>
+		<input id="price"
+		       type="number" min="0" step="any"
+		       placeholder="Price" class="form-control"
+					 formControlName="price"
+					 >
+	</div>
+	<div class="form-group">
+		<label for="category">Product category :</label>
+		<select id="category" class="form-control"
+						formControlName="category"
+		></select>
+	</div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary btn-block">Search</button>
+	</div>
+</form>
